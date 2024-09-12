@@ -1,4 +1,4 @@
-# Statistical Forecasting_Project 1_Drashti Hindocha
+# Statistical Forecasting_Project 1
 
 # Install and load packages
 install.packages("tidyverse", repos = "https://cran.rstudio.com/")
@@ -32,7 +32,7 @@ library(fable)
 library(fabletools)
 
 #Load the Avocado dataset
-Avodata <- read_csv("C:/Users/admin/Documents/Conestoga college/SEM 2/Statistical Forcasting/Project 1/avocado.csv")
+Avodata <- read_csv("C:/Users/admin/Documents/Statistical Forcasting/Project 1/avocado.csv")
 
 #Summary
 summary(Avodata)
